@@ -3,41 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Piedra papel o Tijera</title>
   </head>
   <body>
     <header>
       <h1>Piedra Papel o tijera</h1>
     </header>
-    <main>
-      <div class="container">
-        <p>Elige una opcion</p>
-        <div class="container-images">
-          <input
-            type="image"
-            src="/img/puno.png"
-            alt="piedra"
-            value="Piedra"
-            id="piedra"
-          />
-          <input
-            type="image"
-            img
-            src="/img/mano.png"
-            alt="papel"
-            value="Papel"
-            id="papel"
-          />
-          <input
-            type="image"
-            src="/img/tijeras.png"
-            alt="tijera"
-            value="Tijera"
-            id="tijera"
-          />
-        </div>
-        <buton> A Jugar </buton>
+    <section>
+      <div class="dashboard">
+        <p class="dashboard-user">You:<span id="user"></span></p>
+        <p class="dashboard-computer">Computer:<span id="computer"></span></p>
       </div>
+    </section>
+
+    <main>
+      <p>Elige una opcion</p>
+      <div class="container-images">
+        <input
+          type="image"
+          src="/img/puno.png"
+          alt="stone"
+          value="Piedra"
+          id="stone"
+        />
+        <input
+          type="image"
+          src="/img/mano.png"
+          alt="paper"
+          value="Papel"
+          id="paper"
+        />
+        <input
+          type="image"
+          src="/img/tijeras.png"
+          alt="scissors"
+          value="Tijera"
+          id="scissors"
+        />
+      </div>
+
+      <div class="container-btn">
+        <button>A Jugar</button>
+      </div>
+
       <script src="game.js"></script>
     </main>
   </body>

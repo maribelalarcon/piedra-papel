@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.dashboard p {
+    font-size: 20px;
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 100px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  
+}
+
+ button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(85, 26, 213);
+    cursor: pointer;
+    color: beige;
+    text-align: center;
+}
